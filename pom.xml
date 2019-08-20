@@ -13,7 +13,12 @@
         <module>sso</module>
         <module>sso</module>
         <module>log</module>
+        <module>commen</module>
+        <module>forum</module>
     </modules>
 
+    <dependencies>
+
+    </dependencies>
 
 </project>

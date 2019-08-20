@@ -12,4 +12,8 @@
     <artifactId>sso-commen</artifactId>
 
 
+    <dependencies>
+
+    </dependencies>
+
 </project>

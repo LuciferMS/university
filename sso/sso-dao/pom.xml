@@ -10,11 +10,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>sso-dao</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>sso-dao-api</module>
-        <module>commen</module>
-    </modules>
 
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring</artifactId>
+            <version>2.5.6.SEC03</version>
+        </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.5.2</version>
+        </dependency>
+    </dependencies>
 </project>

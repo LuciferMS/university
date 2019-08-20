@@ -16,7 +16,10 @@
         <module>sso-service</module>
         <module>sso-commen</module>
         <module>sso-util</module>
+        <module>sso-dao</module>
     </modules>
 
+    <dependencies>
+    </dependencies>
 
 </project>

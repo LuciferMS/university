@@ -6,14 +6,17 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/log/pom.xml" />
-        <option value="$PROJECT_DIR$/sso/sso-dao/sso-dao-service/pom.xml" />
         <option value="$PROJECT_DIR$/sso/sso-web/pom.xml" />
         <option value="$PROJECT_DIR$/sso/sso-service/sso-service-service/pom.xml" />
+        <option value="$PROJECT_DIR$/forum/forum-inner/inner-web/pom.xml" />
+        <option value="$PROJECT_DIR$/forum/forum-outer/outer-web/pom.xml" />
+        <option value="$PROJECT_DIR$/sso/sso-dao/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/api/oss/pom.xml" />
+        <option value="$PROJECT_DIR$/api/pom.xml" />
         <option value="$PROJECT_DIR$/log/pom.xml" />
         <option value="$PROJECT_DIR$/sso/pom.xml" />
         <option value="$PROJECT_DIR$/sso/sso-dao/commen/pom.xml" />
