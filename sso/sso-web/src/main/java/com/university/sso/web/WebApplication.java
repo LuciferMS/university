@@ -1,4 +1,4 @@
-package com.university.web;
+package com.university.sso.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

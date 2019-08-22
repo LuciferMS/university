@@ -8,17 +8,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="log-dao" />
         <module name="inner-web" />
-        <module name="forum-outer" />
-        <module name="forum-inner" />
-        <module name="sso-service-service" />
         <module name="sso-util" />
+        <module name="forum-outer" />
+        <module name="sso-service-service" />
+        <module name="sso-commen" />
         <module name="forum-commen" />
         <module name="sso-service-api" />
         <module name="sso-dao" />
         <module name="commen" />
         <module name="outer-web" />
         <module name="sso-web" />
-        <module name="sso-commen" />
+        <module name="forum-inner" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

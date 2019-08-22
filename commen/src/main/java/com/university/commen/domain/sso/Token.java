@@ -1,6 +1,8 @@
-package com.university.sso.commen.domain;
+package com.university.commen.domain.sso;
 
 import lombok.Data;
+
+import java.io.Serializable;
 
 /**
  * @program: university
@@ -9,6 +11,6 @@ import lombok.Data;
  * @create: 2019-08-18 11:08
  **/
 @Data
-public class Token {
+public class Token implements Serializable {
 
 }
