@@ -17,6 +17,12 @@ public interface UserApi {
      * @param user
      * @return
      */
-    public Token userLogin(User user);
+    Token userLogin(User user);
 
+    /**
+     * 用户注册
+     * @param user
+     * @return
+     */
+    Token userRegister(User user);
 }

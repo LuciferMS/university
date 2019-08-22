@@ -6,35 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="log-dao" />
+        <module name="outer-web" />
         <module name="inner-web" />
-        <module name="sso-util" />
+        <module name="sso-web" />
         <module name="forum-outer" />
+        <module name="forum-inner" />
         <module name="sso-service-service" />
-        <module name="sso-commen" />
-        <module name="forum-commen" />
+        <module name="sso-util" />
         <module name="sso-service-api" />
         <module name="sso-dao" />
+        <module name="sso-commen" />
         <module name="commen" />
-        <module name="outer-web" />
-        <module name="sso-web" />
-        <module name="forum-inner" />
+        <module name="forum-commen" />
+        <module name="log-dao" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="api" target="1.5" />
       <module name="log" target="1.5" />
-      <module name="oss" target="1.8" />
       <module name="sso" target="1.5" />
-      <module name="sso-dao" target="1.5" />
-      <module name="sso-dao-api" target="1.5" />
-      <module name="sso-dao-service" target="1.8" />
-      <module name="sso-rpc-api" target="1.5" />
-      <module name="sso-rpc-client" target="1.8" />
-      <module name="sso-rpc-interface" target="1.5" />
-      <module name="sso-rpc-service" target="1.8" />
-      <module name="ssodao" target="1.5" />
-      <module name="ssorpcapi" target="1.8" />
+      <module name="sso-dao" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -42,17 +32,11 @@
       <module name="inner-web" options="-parameters" />
       <module name="log" options="" />
       <module name="log-dao" options="" />
-      <module name="oss" options="-parameters" />
       <module name="outer-web" options="-parameters" />
       <module name="sso" options="" />
       <module name="sso-dao" options="" />
-      <module name="sso-dao-service" options="-parameters" />
-      <module name="sso-rpc-api" options="" />
-      <module name="sso-rpc-client" options="-parameters" />
-      <module name="sso-rpc-service" options="-parameters" />
       <module name="sso-service-service" options="-parameters" />
       <module name="sso-web" options="-parameters" />
-      <module name="ssorpcapi" options="-parameters" />
     </option>
   </component>
 </project>
