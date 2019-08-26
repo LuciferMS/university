@@ -1,7 +1,8 @@
-package com.university.commen.test.sql.domain;
+package com.university.commen.test.sql;
 
 import com.university.commen.mapper.SqlExampleBuilder;
 import com.university.commen.mapper.support.AbstractSqlExample;
+import com.university.commen.test.sql.domain.User;
 
 /**
  * @program: university

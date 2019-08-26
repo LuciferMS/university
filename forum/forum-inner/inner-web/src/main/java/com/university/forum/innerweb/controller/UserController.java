@@ -7,6 +7,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletResponse;
+
 /**
  * @program: university
  * @description: userWeb
@@ -20,8 +23,15 @@ public class UserController {
     private UserApi userApi;
 
     @RequestMapping("/userLogin")
-    public ResponseEntity<String> userLogin(User user){
+    public ResponseEntity<String> userLogin(User user, HttpServletResponse response){
+        response.addCookie(new Cookie("userName", "Elliot"));
         userApi.userLogin(user);
+        return null;
+    }
+
+    @RequestMapping("/userRegister")
+    public ResponseEntity<String> userRegister(User user){
+        userApi.userRegister(user);
         return null;
     }
 }

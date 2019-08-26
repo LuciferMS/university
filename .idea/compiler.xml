@@ -6,25 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="outer-web" />
-        <module name="inner-web" />
-        <module name="sso-web" />
-        <module name="forum-outer" />
-        <module name="forum-inner" />
-        <module name="sso-service-service" />
-        <module name="sso-util" />
-        <module name="sso-service-api" />
         <module name="sso-dao" />
-        <module name="sso-commen" />
-        <module name="commen" />
         <module name="forum-commen" />
+        <module name="outer-dao" />
+        <module name="inner-web" />
+        <module name="sso-service-service" />
+        <module name="inner-dao" />
+        <module name="commen" />
+        <module name="sso-util" />
+        <module name="sso-web" />
         <module name="log-dao" />
+        <module name="outer-web" />
+        <module name="sso-service-api" />
+        <module name="sso-commen" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="log" target="1.5" />
       <module name="sso" target="1.5" />
-      <module name="sso-dao" target="8" />
+      <module name="sso-dao" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -1,5 +1,7 @@
 package com.university.commen.mapper;
 
+import com.university.commen.mapper.support.ConditionOperator;
+
 /**
  * @program: university
  * @description: updateAble
@@ -15,6 +17,6 @@ public interface ConditionAble {
      * @param values 属性值
      * @return
      */
-    ConditionAble where(String property, String condition, Object values);
+    ConditionAble where(String property, ConditionOperator condition, Object values);
 
 }

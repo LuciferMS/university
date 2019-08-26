@@ -1,4 +1,4 @@
-package com.university.commen.test.sql.domain;
+package com.university.commen.test.sql;
 
 /**
  * @program: university

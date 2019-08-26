@@ -1,8 +1,8 @@
-package com.university.commen.test.sql.domain;
+package com.university.commen.test.sql;
 
-import com.university.commen.mapper.SqlCondition;
-import com.university.commen.mapper.SqlExampleBuilder;
 import com.university.commen.mapper.support.AbstractSqlExampleBuilder;
+import com.university.commen.mapper.support.ConditionOperator;
+import com.university.commen.mapper.support.DefaultSelectCondition;
 
 /**
  * @program: university
@@ -12,7 +12,8 @@ import com.university.commen.mapper.support.AbstractSqlExampleBuilder;
  **/
 public class UserSqlExampleBuilder extends AbstractSqlExampleBuilder {
 
-    public UserSqlExampleBuilder(SqlCondition sqlCondition) {
-        super();
+    public UserSqlExampleBuilder equalsByUserName(String username) {
+        addSqlCondition(new DefaultSelectCondition("username", ConditionOperator.EQUALS, username));
+        return this;
     }
 }

@@ -7,6 +7,7 @@ import com.university.commen.domain.sso.User;
 import com.university.sso.dao.mapper.UserMapper;
 import com.university.sso.service.api.user.UserApi;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.StringRedisTemplate;
 
 /**
  * @program: university
@@ -18,6 +19,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class UserApiImpl implements UserApi {
 
     @Autowired
+    private StringRedisTemplate stringRedisTemplate;
+
+    @Autowired
     private UserMapper userMapper;
 
     /**
@@ -27,6 +31,7 @@ public class UserApiImpl implements UserApi {
      */
     @Override
     public Token userLogin(User user) {
+        stringRedisTemplate.opsForValue().set("username", user.getUsername());
         return null;
     }
 

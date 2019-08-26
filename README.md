@@ -8,7 +8,10 @@ sso--单点登录
 #####forum-inner：10012
 #####forum-outer：10013
 
+##DOING
+###封装mybatis
+
 ##TODO
-###单点登录
+###单点登录 https://www.cnblogs.com/ywlaker/p/6113927.html
 ###网页聊天室
 
