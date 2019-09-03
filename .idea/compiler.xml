@@ -15,9 +15,11 @@
         <module name="commen" />
         <module name="sso-util" />
         <module name="sso-web" />
+        <module name="outer-service" />
         <module name="log-dao" />
         <module name="outer-web" />
         <module name="sso-service-api" />
+        <module name="inner-service" />
         <module name="sso-commen" />
       </profile>
     </annotationProcessing>
