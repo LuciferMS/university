@@ -9,14 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>outer-service</artifactId>
+    <artifactId>outer-commen</artifactId>
 
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring</artifactId>
-            <version>2.5.6.SEC03</version>
-        </dependency>
-    </dependencies>
+
 </project>
