@@ -1,19 +1,22 @@
 package com.university.forum.outer.commen.domain;
 
 import java.sql.Timestamp;
-import java.util.List;
 
 /**
  * @program: university
- * @description: 帖子
+ * @description: 评论
  * @author: Elliot
- * @create: 2019-09-05 23:15
+ * @create: 2019-09-05 23:22
  **/
-public class Post {
+public class Comment {
     /**
-     *id
+     * id
      */
-    private String postId;
+    private String mid;
+    /**
+     * 发布用户
+     */
+    private String uid;
     /**
      * 内容
      */
@@ -26,8 +29,4 @@ public class Post {
      * 最后一次更新时间
      */
     private Timestamp lastUpdateTime;
-    /**
-     * 评论ids
-     */
-    private List<String> commentIds;
 }
