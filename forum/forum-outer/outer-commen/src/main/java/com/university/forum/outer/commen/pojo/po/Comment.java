@@ -1,4 +1,4 @@
-package com.university.forum.outer.commen.domain;
+package com.university.forum.outer.dao.po;
 
 import java.sql.Timestamp;
 
@@ -29,4 +29,9 @@ public class Comment {
      * 最后一次更新时间
      */
     private Timestamp lastUpdateTime;
+
+    /**
+     * 状态
+     */
+    private Integer status;
 }

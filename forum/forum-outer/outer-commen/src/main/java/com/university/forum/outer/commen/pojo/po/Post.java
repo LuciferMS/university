@@ -1,4 +1,4 @@
-package com.university.forum.outer.commen.domain;
+package com.university.forum.outer.dao.po;
 
 import java.sql.Timestamp;
 import java.util.List;
@@ -34,4 +34,8 @@ public class Post {
      * 评论ids
      */
     private List<String> commentIds;
+    /**
+     * 状态
+     */
+    private Integer status;
 }
